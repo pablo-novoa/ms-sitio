@@ -1,0 +1,22 @@
+a, a:focus, a:active, a:hover{
+	outline: none;
+}
+
+h1, h2, h3, h4{
+	margin-top: 0 !important;
+	line-height: 1.2em;
+}
+h1, h2{
+	margin-bottom: 20px !important;
+}
+
+h3, h4{
+	margin-bottom: 15px !important;
+}
+
+ul, ol{
+	margin: 0;
+	li{
+		margin-bottom: 4px;
+	}
+}

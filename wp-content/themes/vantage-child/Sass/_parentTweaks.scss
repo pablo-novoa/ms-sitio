@@ -1,0 +1,29 @@
+.widget_vantage-social-media{
+	.social-media-icon{
+		border: none !important;
+		box-shadow: none !important;
+		border-radius: 0px !important;
+	}
+}
+
+.widget_circleicon-widget{
+	margin-bottom: 0px !important;
+	h4{
+		margin-bottom: 0 !important;
+		min-height: 45px;
+	}
+}
+
+
+#main{
+	padding-top: 0;
+}
+
+.masonryWidget_imgContain{
+	img{
+		object-fit: contain;
+		width: 100% !important;
+		height: 100% !important;
+		margin: 0 !important;
+	}
+}
