@@ -9,7 +9,8 @@ spl_autoload_register(function ($className) {
 
 
 // init widgets
-Widgets\Init::register();
+$widgetsMS = new Widgets\Init();
+$widgetsMS->register();
 
 // enqueues
 add_action( 'wp_enqueue_scripts', 'ms_enqueue_styles' );
