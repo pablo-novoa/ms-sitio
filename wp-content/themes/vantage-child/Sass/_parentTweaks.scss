@@ -27,3 +27,18 @@
 		margin: 0 !important;
 	}
 }
+
+#contact_page_form{
+	input, textarea{
+		width: 100%;
+		display: block;
+	}
+	.wpcf7-form-control-wrap{
+		display: block;
+	}
+
+	.wpcf7-submit{
+		display: inline-block;
+	    width: auto;
+	}
+}
