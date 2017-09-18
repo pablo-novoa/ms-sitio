@@ -2,9 +2,8 @@
 
 namespace Widgets;
 use WP_Hook;
-/**
-* Widgets init class
-*/
+
+
 class Init
 {
 	
