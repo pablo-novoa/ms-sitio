@@ -43,3 +43,24 @@ function ms_theme_settings($wp_customize){
   
 
 }
+
+
+
+function google_analytics_tracking_code(){
+
+
+?>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107312629-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-107312629-1');
+    </script>
+
+<?php 
+  
+}
+
+add_action('wp_footer', 'google_analytics_tracking_code');
